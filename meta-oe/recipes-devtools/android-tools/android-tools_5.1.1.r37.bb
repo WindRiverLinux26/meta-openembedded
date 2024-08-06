@@ -187,3 +187,5 @@ FILES:${PN}-fstools = "\
 "
 
 BBCLASSEXTEND = "native"
+
+SKIP_RECIPE[android-tools] ?= "Use higher version from dynamic-layers/selinux/recipes-devtools"
