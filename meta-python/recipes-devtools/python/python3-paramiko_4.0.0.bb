@@ -5,6 +5,8 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=fd0120fc2e9f841c73ac707a30389af5"
 
 SRC_URI[sha256sum] = "6a25f07b380cc9c9a88d2b920ad37167ac4667f8d9886ccebd8f90f654b5d69f"
 
+SRC_URI += "file://CVE-2026-44405.patch"
+
 PYPI_PACKAGE = "paramiko"
 
 inherit pypi python_setuptools_build_meta
