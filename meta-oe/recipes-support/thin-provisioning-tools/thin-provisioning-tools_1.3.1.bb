@@ -10,7 +10,7 @@ SRC_URI = " \
     git://github.com/device-mapper-utils/thin-provisioning-tools;branch=main;protocol=https;tag=v${PV} \
     file://0001-Use-portable-atomics-crate.patch \
     file://disable-cargo-metadata.patch \
-    ${@bb.utils.contains_any('TUNE_FEATURES', '32 m32 mx32', \
+    ${@bb.utils.contains('TUNE_FEATURES', '32', \
         'file://dms-no-layout-check.patch;patchdir=${CARGO_VENDORING_DIRECTORY}/devicemapper-sys-0.3.3', \
         '', d)} \
     "
