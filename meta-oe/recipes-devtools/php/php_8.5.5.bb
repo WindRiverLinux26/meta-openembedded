@@ -25,6 +25,7 @@ SRC_URI:append:class-target = " \
             file://php-fpm-apache.conf \
             file://70_mod_php${PHP_MAJOR_VERSION}.conf \
             file://php-fpm.service \
+            file://CVE-2026-7262.patch \
           "
 
 UPSTREAM_CHECK_URI = "https://github.com/php/php-src/releases"
