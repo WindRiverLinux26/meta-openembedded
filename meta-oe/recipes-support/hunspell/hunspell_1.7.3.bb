@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = " \
 "
 
 SRCREV = "c5f98152a274e25b5107101104bef632b83a0cc9"
-SRC_URI = "git://github.com/${BPN}/${BPN}.git;branch=master;protocol=https"
+SRC_URI = "git://github.com/${BPN}/${BPN}.git;branch=master;protocol=https;tag=v${PV}"
 
 
 inherit autotools pkgconfig gettext

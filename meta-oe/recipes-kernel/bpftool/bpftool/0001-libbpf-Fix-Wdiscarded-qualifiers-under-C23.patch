@@ -26,8 +26,7 @@ Signed-off-by: Alexei Starovoitov <ast@kernel.org>
 Signed-off-by: Shung-Hsi Yu <shung-hsi.yu@suse.com>
 Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
 
-Upstream-Status: Pending
-
+Upstream-Status: Backport [https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?h=linux-6.18.y&id=ab21cf885fb2af179c44d8beeabd716133b9385d]
 Signed-off-by: He Zhe <zhe.he@windriver.com>
 ---
  tools/lib/bpf/libbpf.c | 7 ++++---
